@@ -14,6 +14,7 @@ public class scholarship {
 
         float finalFee = afterScholarship + examFee + libraryFee;
 
-        System.out.println("Final Payable Fee = " + finalFee);
+        System.out.println(finalFee);
+        sc.close();
     }
 }
