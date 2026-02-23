@@ -67,9 +67,9 @@ public class insurancecalculator {
         double total=bp+rs;
 
         System.out.println("Age :"+age);
-        System.out.println("Smoking status: "+status);
+        System.out.println("Smoking status: "+status.substring(0, 1).toUpperCase()+status.substring(1));
         System.out.println("pre-existing conditions: "+conditions);
-        System.out.println("coverage tier: "+tier);
+        System.out.println("coverage tier: "+tier.substring(0,1).toUpperCase()+tier.substring(1));
         System.out.println("base premium : "+bp);
         System.out.println("risk surcharge: "+rs);
         System.out.println("total monthly premium: "+total);
